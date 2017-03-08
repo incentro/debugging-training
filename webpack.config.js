@@ -3,9 +3,6 @@
 // Modules
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let path = require('path');
-let webpack = require('webpack');
-
-let PROD = (process.env.NODE_ENV === 'production');
 
 module.exports = function makeWebpackConfig() {
     /**
